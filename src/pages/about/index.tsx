@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 const About: NextPage = () => {
   const [movies, setMovies] = useState(
-    [] as { id: string; title_long: string }[],
+    [] as { id: string; title_long: string; torrents: { url: string }[] }[],
   )
 
   const onClick = () => {
@@ -29,6 +29,11 @@ const About: NextPage = () => {
           <>
             <div key={movie?.id}></div>
             <h4>{movie?.title_long}</h4>
+            <ul>
+              {movie.torrents.map((torrent) => {
+                return <li key={torrent.url}>{torrent.url}</li>
+              })}
+            </ul>
           </>
         )
       })}
