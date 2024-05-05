@@ -15,3 +15,8 @@
   - https://nextjs.org/docs/app/api-reference/next-config-js/env
 - [NextJS,TypeScript] Custom Type을 한 곳에서 관리 하는 법
   - https://kangminhyuk1111.tistory.com/47
+
+## 패키지 목록
+
+- axios
+  - yarn add axios
