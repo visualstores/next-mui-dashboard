@@ -20,3 +20,5 @@
 
 - axios
   - yarn add axios
+- mui
+  - yarn add @mui/material @emotion/react @emotion/styled
