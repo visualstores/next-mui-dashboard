@@ -25,7 +25,10 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "prettier": "^3.2.5",
-    "typescript": "^5"
+    "sass": "^1.76.0",
+    "scss": "^0.2.4",
+    "typescript": "^5",
+    "typescript-plugin-css-modules": "^5.1.0"
   },
   "packageManager": "yarn@4.2.1"
 }

@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 import Dashboard from './dashboard'
 import Header from '@/components/Header'
 import SideMenu from '@/components/SideMenu'
-
-export default function Home() {
+import styles from './Home.module.scss'
+const Home: React.FC = () => {
   return (
     <>
       <Head>
@@ -21,3 +20,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home

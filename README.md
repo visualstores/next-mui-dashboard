@@ -20,5 +20,7 @@
 
 - axios
   - yarn add axios
+- sass
+  - yarn add -D sass typescript-plugin-css-modules
 - mui
   - yarn add @mui/material @emotion/react @emotion/styled @mui/icons-material
